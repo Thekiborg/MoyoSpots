@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Moyo Cheek Spots</name>
+    <author>Thekiborg, Barb-tan</author>
+    <supportedVersions>
+		<li>1.4</li>
+    </supportedVersions>
+    <packageId>Thek.MoyoSpots</packageId>
+    <description>This mod re-adds the spots the Moyo had in their faces back in 1.2. They don't glow though.
+    
+    Thanks to Barbariank for editing the Textures.</description>
+    <loadAfter>
+        <li>Nemonian.MY</li>
+        <li>aoba.redmoyo</li>
+    </loadAfter>
+</ModMetaData>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Moyo-Light in the Abyss</li>
+        </mods>
+        <match Class="PatchOperationAdd">
+            <xpath>Defs/AlienRace.ThingDef_AlienRace[defName="Alien_RedMoyo"]/alienRace/generalSettings/alienPartGenerator/bodyAddons</xpath>
+            <value>
+                <li>
+                    <path>RedMoyo/HeadSpots/MoyoHeadGlow</path>
+                    <bodyPart>Head</bodyPart>
+                    <drawnInBed>true</drawnInBed>
+                    <alignWithHead>true</alignWithHead>
+                    <shaderType>MoteGlow</shaderType>
+                    <drawSize>(1, 1)</drawSize>
+                    <offsets>
+                        <south>
+                            <layerOffset>-0.339</layerOffset>
+                        </south>
+                        <east>
+                            <layerOffset>-0.339</layerOffset>
+                        </east>
+                    </offsets>
+                    <hiddenUnderApparelFor>
+			    	    <li>FullHead</li>
+			    	</hiddenUnderApparelFor>
+			    	<!-- <hiddenUnderApparelTag>
+			    		<li>MoyoTuque</li>
+			    	</hiddenUnderApparelTag> -->
+                </li>
+            </value>
+        </match>
+    </Operation>
+
+</Patch>
